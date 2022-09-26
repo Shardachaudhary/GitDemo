@@ -4,7 +4,7 @@
   <test name="TestAddMul">
     <classes>
       <class name="testAddition.TestMul"/>
-<!--       <class name="testAddition.TestAdd"/> -->
+<class name="testAddition.TestAdd"/> 
     </classes>
   </test> 
 </suite> 
