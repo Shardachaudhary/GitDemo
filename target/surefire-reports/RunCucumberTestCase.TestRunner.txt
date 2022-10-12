@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTestCase.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.83 s <<< FAILURE! - in RunCucumberTestCase.TestRunner
+Search for same product in both home and Offers page #1(Search and Place the order for Products)  Time elapsed: 0.507 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user searched for Tom shortname in offers page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("user searched for Tom shortname in offers page")
+public void user_searched_for_tom_shortname_in_offers_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate product name in offers page matches with Landing Page")
+public void validate_product_name_in_offers_page_matches_with_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search for same product in both home and Offers page #2(Search and Place the order for Products)  Time elapsed: 0.025 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user searched for Beet shortname in offers page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("user searched for Beet shortname in offers page")
+public void user_searched_for_beet_shortname_in_offers_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate product name in offers page matches with Landing Page")
+public void validate_product_name_in_offers_page_matches_with_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
